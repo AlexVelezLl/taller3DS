@@ -9,7 +9,7 @@ package taller;
  *
  * @author CLOJA
  */
-public class Telegram implements Notificacion {
+public class NotificacionTelegram implements Notificacion {
 
     @Override
     public void notificar(Pago pago) {
