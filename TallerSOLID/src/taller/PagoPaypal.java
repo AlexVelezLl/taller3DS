@@ -13,6 +13,7 @@ public class PagoPaypal implements Pago{
     
     @Override
     public void realizarCobro(double monto) {
+        //logear antes de realizar el cobro
      //aquí se realiza el cobro   
     }
     
