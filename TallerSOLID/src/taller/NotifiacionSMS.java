@@ -9,6 +9,11 @@ package taller;
  *
  * @author PC
  */
-public class NotifiacionSMS implements Notificacion{
-    //Enviar sms
+public class NotifiacionSMS implements Notificacion {
+
+    @Override
+    public void notificar(Pago pago) {
+        //Enviar sms
+    }
+
 }

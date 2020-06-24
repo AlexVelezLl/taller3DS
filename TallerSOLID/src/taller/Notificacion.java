@@ -7,8 +7,10 @@ package taller;
 
 /**
  *
- * @author CORE i7 ULTIMATE
+ * @author AlexVelezLl
  */
 public interface Notificacion {
+
+    public void notificar(Pago pago);
     
 }
