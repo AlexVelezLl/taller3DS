@@ -11,10 +11,13 @@ package taller;
  */
 public class PagoPaypal implements Pago{
     
+    private boolean loggedIn;
     @Override
     public void realizarCobro(double monto) {
-        //logear antes de realizar el cobro
-     //aquí se realiza el cobro   
+        if(!loggedIn){
+            //log();
+        }
+        //Aqui se realiza el cobro
     }
     
 }
